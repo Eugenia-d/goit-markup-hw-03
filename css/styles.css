@@ -2,8 +2,8 @@
   --accent-color: #2196f3;
   --primary-text-color: #212121;
   --background-color: #2f303a;
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --card-set-gap: 30px;
 }
 
@@ -87,6 +87,10 @@ body {
   align-items: center;
 }
 
+.list-contact .contact:not(:last-child) {
+  margin-right: 50px;
+}
+
 .colortext {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -136,8 +140,6 @@ body {
 }
 
 .mail-link {
-  margin-right: 50px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -327,7 +329,7 @@ body {
 }
 
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
