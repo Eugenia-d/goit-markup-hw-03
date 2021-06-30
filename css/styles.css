@@ -396,6 +396,10 @@ address {
 /* ======== END FOOTER  ========*/
 
 /* ======== PORTPHOLIO ========*/
+.not-visible {
+  visibility: hidden;
+}
+
 .filter {
   align-items: center;
   margin-right: 8px;
